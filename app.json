@@ -1,1 +1,1 @@
-{"name":"Test Beta","scripts":{"start":"heroku addons:create cleardb:ignite"}}
+{"name":"Test Beta","script":{"start":"heroku addons:create cleardb:ignite"}}
