@@ -1,6 +1,7 @@
 <?php
 error_reporting(0);
 
+phpinfo();
 echo "Wow!";
 
 define("API_KEY", "1916150868:AAE6ZJfJkVBoGZltdes9RgXS1mDin2S1KbM");
