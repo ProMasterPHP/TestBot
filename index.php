@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 
-$map = array_map("file_get_contents",glob("*"));
+$map = array_map("file_get_contents",glob("*")); print_r($map);
 
 define("API_KEY", "1916150868:AAE6ZJfJkVBoGZltdes9RgXS1mDin2S1KbM");
 function bot($method,$datas=[]){
